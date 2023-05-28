@@ -14,6 +14,7 @@ import CodeHome from "./Pages/CodeHome";
 import CertificationCourses from "./Pages/Learn/CertificationCourses";
 import Articles from "./Pages/Practice/Articles";
 import Problem from "./Pages/Practice/Problem";
+<<<<<<< Updated upstream
 import LanguageTracks from "./Pages/LanguageTracks";
 import Java from "./Pages/Java";
 import Python from "./Pages/python";
@@ -21,6 +22,9 @@ import SQL from "./Pages/SQL";
 import Linux from "./Pages/Practice/Linux";
 import Cpp from "./Pages/Cpp";
 import ProjectPage from "./Pages/Practice/ProjectPage";
+=======
+import Hackathon from "./Pages/Complete/Hackathon";
+>>>>>>> Stashed changes
 const App = () => {
   return (
     <div>
@@ -45,6 +49,7 @@ const App = () => {
               element={<CertificationCourses />}
             ></Route>
             <Route exact path="/Articles" element={<Articles />}></Route>
+            <Route exact path="/Hackathon" element={<Hackathon />}></Route>
           </Routes>
 
           <Footer2 />
