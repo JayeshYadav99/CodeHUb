@@ -1,18 +1,12 @@
 import React,{useEffect,useState} from "react";
 import { BsEyeFill, BsPlayFill } from 'react-icons/bs';
-import {Chart, ArcElement,CategoryScale,LinearScale} from 'chart.js'
-import Mychart from './Github'
-Chart.register(ArcElement);
-Chart.register(CategoryScale);
-Chart.register(LinearScale);
-import { Pie } from 'react-chartjs-2';
+
+
 import axios from "axios";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { useAuth0 } from '@auth0/auth0-react';
-import "chartjs-plugin-datalabels";
-import ChartDataLabels from "chartjs-plugin-datalabels";
-Chart.register(ChartDataLabels);
+
 const Homepage = () => {
   const colors = ['bg-purple-500', 'bg-blue-500', 'bg-green-500', 'bg-yellow-500', 'bg-red-500'];
 const colorInterval = 3000;
@@ -169,7 +163,7 @@ async function fetchInst() {
 
 async function octo(answer) {
   const headers = {
-    'Authorization': `Bearer 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`,
+    'Authorization': `Bearer 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`,
     'Accept': 'application/vnd.github.v3+json',
     'User-Agent': 'octokit.rest'
   };
@@ -218,7 +212,7 @@ const handleStart = async (repositoryId) => {
     const response = await fetch(apiUrl, {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer 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`,
+        'Authorization': `Bearer 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`,
         'Accept': 'application/vnd.github.v3+json',
         'User-Agent': 'octokit.rest',
         'Content-Type': 'application/json'
@@ -327,4 +321,4 @@ return (
         }
 
 
-export default Homepage;
+export default Homepage
