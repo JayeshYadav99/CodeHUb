@@ -14,6 +14,7 @@ import CodeHome from "./Pages/CodeHome";
 import CertificationCourses from "./Pages/Learn/CertificationCourses";
 import Articles from "./Pages/Practice/Articles";
 import Problem from "./Pages/Practice/Problem";
+import LanguageTracks from "./Pages/LanguageTracks";
 const App = () => {
   return (
     <div>
@@ -25,7 +26,7 @@ const App = () => {
             <Route exact path="/" element={<CodeHome />}></Route>
             <Route exact path="/Repo" element={<Repo />}></Route>
             <Route exact path="/Github" element={<Github />}></Route>
-            <Route exact path="/Problem" element={<Problem />}></Route>
+            <Route exact path="/Problem" element={<LanguageTracks />}></Route>
 
             <Route
               exact
