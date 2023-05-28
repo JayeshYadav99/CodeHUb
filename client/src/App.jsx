@@ -12,6 +12,7 @@ import Github from './Pages/Github'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CodeHome from "./Pages/CodeHome";
 import CertificationCourses from "./Pages/Learn/CertificationCourses";
+import Articles from "./Pages/Practice/Articles";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route exact path="/Repo" element={<Repo />}></Route>
           <Route exact path="/Github" element={<Github />}></Route>
           <Route exact path="/CertiCourse" element={<CertificationCourses/>}></Route>
+          <Route exact path="/Articles" element={<Articles/>}></Route>
          
 
          
