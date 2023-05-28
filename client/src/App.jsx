@@ -15,6 +15,11 @@ import CertificationCourses from "./Pages/Learn/CertificationCourses";
 import Articles from "./Pages/Practice/Articles";
 import Problem from "./Pages/Practice/Problem";
 import LanguageTracks from "./Pages/LanguageTracks";
+import Java from "./Pages/Java";
+import Python from "./Pages/python";
+import SQL from "./Pages/SQL";
+import Linux from "./Pages/Practice/Linux";
+import Cpp from "./Pages/Cpp";
 const App = () => {
   return (
     <div>
@@ -27,6 +32,11 @@ const App = () => {
             <Route exact path="/Repo" element={<Repo />}></Route>
             <Route exact path="/Github" element={<Github />}></Route>
             <Route exact path="/Problem" element={<LanguageTracks />}></Route>
+            <Route exact path="/JAVA" element={<Java />}></Route>
+            <Route exact path="/Python" element={<Python />}></Route>
+            <Route exact path="/SQL" element={<SQL />}></Route>
+            <Route exact path="/Linux" element={<Linux />}></Route>
+            <Route exact path="/Cpp" element={<Cpp />}></Route>
 
             <Route
               exact

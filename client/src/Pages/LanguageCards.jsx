@@ -33,7 +33,7 @@ function App({ singleData }) {
           <Labels data={singleData.categories[2]} />
         </div>
         <a
-          href="#"
+          href={singleData.redirectLink}
           className="inline-flex items-center text-blue-600 hover:underline"
         >
           Click Here

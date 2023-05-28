@@ -1,34 +1,35 @@
 const programmingLanguages = [
   {
-    name: "JavaScript",
+    name: "C++",
     problems: 5,
     categories: ["Web Development", "Frontend", "Node.js"],
+    redirectLink: "/Cpp",
   },
   {
     name: "Python",
     problems: 5,
     categories: ["Data Science", "Machine Learning", "Backend"],
+    redirectLink: "/Python",
   },
   {
     name: "Java",
     problems: 5,
     categories: ["Enterprise Software", "Backend", "Desktop Applications"],
+    redirectLink: "/Java",
   },
   {
-    name: "C++",
+    name: "SQL",
     problems: 5,
     categories: ["System Programming", "Backend", "Game Development"],
+    redirectLink: "/SQL",
   },
   {
-    name: "Ruby",
+    name: "Linux",
     problems: 5,
     categories: ["Web Development", "Backend", "Scripting"],
+    redirectLink: "/Linux",
   },
-  {
-    name: "Go",
-    problems: 5,
-    categories: ["System Programming", "Backend", "Networking"],
-  },
+
   // Add more programming languages as needed
 ];
 
