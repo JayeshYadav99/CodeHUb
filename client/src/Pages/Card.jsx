@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card({ image, text, title }) {
+export default function Card({ image, text, title,link }) {
   return (
     <div>
       <div className="max-w-sm mx-4  border border-gray-200 rounded-lg shadow dark:bg-white-800 dark:border-gray-700">
@@ -19,10 +19,10 @@ export default function Card({ image, text, title }) {
           </a>
           <p className="mb-3 text-sm font-Futura  text-black-500">{text}</p>
           <a
-            href="#"
+            href={link}
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            Read more
+           Explore Now
             <svg
               aria-hidden="true"
               className="w-4 h-4 ml-2 -mr-1"

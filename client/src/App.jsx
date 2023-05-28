@@ -21,6 +21,8 @@ import SQL from "./Pages/SQL";
 import Linux from "./Pages/Practice/Linux";
 import Cpp from "./Pages/Cpp";
 import ProjectPage from "./Pages/Practice/ProjectPage";
+import Hackathon from "./Pages/Complete/Hackathon";
+import Form from "./Pages/Form";
 const App = () => {
   return (
     <div>
@@ -38,6 +40,7 @@ const App = () => {
             <Route exact path="/SQL" element={<SQL />}></Route>
             <Route exact path="/Linux" element={<Linux />}></Route>
             <Route exact path="/Cpp" element={<Cpp />}></Route>
+            <Route exact path="/Form" element={<Form />}></Route>
             <Route exact path="/Projectpage" element={<ProjectPage />}></Route>
             <Route
               exact
@@ -45,6 +48,7 @@ const App = () => {
               element={<CertificationCourses />}
             ></Route>
             <Route exact path="/Articles" element={<Articles />}></Route>
+            <Route exact path="/Hackathon" element={<Hackathon />}></Route>
           </Routes>
 
           <Footer2 />
