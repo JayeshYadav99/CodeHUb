@@ -68,16 +68,19 @@ export default function Articles() {
             image={`https://www.marketing91.com/wp-content/uploads/2020/06/Problem-Solving-Skills-1024x576.jpg`}
             text={`     Test and certify your basic problem-solving skills with the Problem Solving (Basic) Skills Certification Test by HackerRank..`}
             title={`Problem Solving (Basic) Skills Certification Test`}
+            link ={`https://www.hackerrank.com/skills-verification/problem_solving_basic`}
           />
           <Card
             image={`https://clspt-uploads-prd.s3.us-east-1.amazonaws.com/unsigned/post__javascript-certification-0808b8be49caac41e195ae8b19ad8ff5.jpg`}
             text={`Test your knowledge of JavaScript syntax, data types, functions, and basic programming concepts, and validate your proficiency in JavaScript for web development and coding tasks.`}
             title={`JavaScript (Basic) Skills Certification`}
+            link={`https://www.hackerrank.com/skills-verification/javascript_basic`}
           />
           <Card
             image={`https://th.bing.com/th/id/OIP.AgacsgdklG2UNqqeBjBfdgHaEK?pid=ImgDet&rs=1`}
             text={`Showcase your abilities in Node.js development and enhance your credentials for backend web development and server-side scripting.`}
             title={`Node (Basic) Skills Certification`}
+            link={`https://www.hackerrank.com/skills-verification/nodejs_basic`}
           />
         </div>
       </section>
@@ -105,17 +108,20 @@ export default function Articles() {
             title={`DSA Sheet by Love Babbar`}
             image={`https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220211142631/Love-Babbar-DSA-Sheet-450-Coding-Questions-min.png`}
             text={`Master the art of Data Structures and Algorithms with Love Babbar's DSA Sheet, packed with 450 coding questions. Prepare yourself for technical interviews at top companies like Amazon, Microsoft, and Google, by strengthening your understanding of DSA concepts and gaining proficiency in programming languages like C++, Java, or Python, along with the efficient use of STL.`}
+            link={`https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/`}
           />
           <Card
             title={`Top 100 DSA interview questions`}
             image={`https://media.geeksforgeeks.org/wp-content/uploads/20230419180619/Top-100-dsa-interview-questions-copy.webp`}
             text={`
 Prepare for your next technical interview with the Top 100 DSA interview questions, carefully categorized based on the data structures and algorithms utilized. Enhance your problem-solving skills and excel in interviews by diving into this comprehensive collection of practice questions.`}
+link={`https://www.geeksforgeeks.org/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/`}
           />
           <Card
             title={`Top 10 Algorithms and Data Structures for Competitive Programming`}
             image={`https://media.geeksforgeeks.org/wp-content/cdn-uploads/Competitive-Programming-1.jpg`}
             text={`Master the essential algorithms and data structures required for competitive programming with this curated course. Gain a competitive edge by learning and practicing the top 10 algorithms and data structures commonly encountered in programming contests and coding competitions.`}
+            link={`https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/`}
           />
         </div>
       </section>
@@ -223,9 +229,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/python.svg"
                 />
                 <div className="title text-center">Python</div>
-                <div className="students-count text-center">
-                  333239 students
-                </div>
+                
               </div>
             </a>
             <a className="track" href="/tracks/javascript">
@@ -243,7 +247,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/javascript.svg"
                 />
                 <div className="title">JavaScript</div>
-                <div className="students-count">277122 students</div>
+
               </div>
             </a>
             <a className="track" href="/tracks/java">
@@ -261,7 +265,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/java.svg"
                 />
                 <div className="title">Java</div>
-                <div className="students-count">132104 students</div>
+               
               </div>
             </a>
 
@@ -280,7 +284,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/go.svg"
                 />
                 <div className="title">Go</div>
-                <div className="students-count">92260 students</div>
+                
               </div>
             </a>
             <a className="track" href="/tracks/cpp">
@@ -298,7 +302,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/cpp.svg"
                 />
                 <div className="title">C++</div>
-                <div className="students-count">86405 students</div>
+            
               </div>
             </a>
             <a className="track" href="/tracks/csharp">
@@ -316,7 +320,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/csharp.svg"
                 />
                 <div className="title">C#</div>
-                <div className="students-count">83361 students</div>
+               
               </div>
             </a>
             <a className="track" href="/tracks/rust">
@@ -334,7 +338,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/rust.svg"
                 />
                 <div className="title">Rust</div>
-                <div className="students-count">79523 students</div>
+
               </div>
             </a>
             <a className="track" href="/tracks/c">
@@ -352,7 +356,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/c.svg"
                 />
                 <div className="title">C</div>
-                <div className="students-count">71906 students</div>
+
               </div>
             </a>
             <a className="track" href="/tracks/typescript">
@@ -370,7 +374,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/typescript.svg"
                 />
                 <div className="title">TypeScript</div>
-                <div className="students-count">50027 students</div>
+               
               </div>
             </a>
             <a className="track" href="/tracks/bash">
@@ -388,7 +392,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/bash.svg"
                 />
                 <div className="title">Bash</div>
-                <div className="students-count">45681 students</div>
+
               </div>
             </a>
             <a className="track m-auto" href="/tracks/ruby">
@@ -406,7 +410,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/ruby.svg"
                 />
                 <div className="title">Ruby</div>
-                <div className="students-count">45504 students</div>
+
               </div>
             </a>
             <a className="track" href="/tracks/elixir">
@@ -424,7 +428,7 @@ Prepare for your next technical interview with the Top 100 DSA interview questio
                   src="https://dg8krxphbh767.cloudfront.net/tracks/elixir.svg"
                 />
                 <div className="title">Elixir</div>
-                <div className="students-count">35534 students</div>
+
               </div>
             </a>
           </div>

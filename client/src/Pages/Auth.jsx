@@ -38,12 +38,19 @@ const [repoColors, setRepoColors] = useState(colors);
 {
 
       
-      const accessToken= await getAccessToken();
-      console.log(accessToken);
-      const token=`${accessToken}`;
-  
-      const Myuser= await fetchUserInfo(token);
-      const userId=Myuser.sub;
+    const accessToken = await getAccessToken();
+
+// 2. Log the access token
+console.log(accessToken);
+
+// 3. Fetch user info using the access token
+const Myuser = await fetchUserInfo(accessToken);
+
+// 4. Extract the user ID from the user info
+const userId = Myuser.sub;
+
+// 5. Log the user ID
+console.log(userId);
 
      
  var answer;

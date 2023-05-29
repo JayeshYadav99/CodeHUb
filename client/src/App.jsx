@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
 import Hero from "./Pages/Hero";
 import Footer2 from "./Pages/Footer2";
-import Repo from "./Pages/Repo";
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CodeHome from "./Pages/CodeHome";
@@ -33,7 +33,7 @@ const App = () => {
 
           <Routes>
             <Route exact path="/" element={<CodeHome />}></Route>
-            <Route exact path="/Repo" element={<Repo />}></Route>
+          
 
             <Route exact path="/Problem" element={<LanguageTracks />}></Route>
             <Route exact path="/JAVA" element={<Java />}></Route>
