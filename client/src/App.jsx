@@ -23,6 +23,7 @@ import Cpp from "./Pages/Cpp";
 import ProjectPage from "./Pages/Practice/ProjectPage";
 import Hackathon from "./Pages/Complete/Hackathon";
 import Form from "./Pages/Form";
+import Auth from "./Pages/Auth";
 const App = () => {
   return (
     <div>
@@ -42,6 +43,7 @@ const App = () => {
             <Route exact path="/Cpp" element={<Cpp />}></Route>
             <Route exact path="/Form" element={<Form />}></Route>
             <Route exact path="/Projectpage" element={<ProjectPage />}></Route>
+            <Route exact path="/AUth" element={<Auth />}></Route>
             <Route
               exact
               path="/CertiCourse"
