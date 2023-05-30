@@ -154,7 +154,7 @@ async function octo(answer) {
 const handleStart = async (repo) => {
   
 
-    window.location.href=`https://codespaces.new/${githubUsername}/${repo}?quickstart=1`;
+    window.location.href=`https://codespaces.new/${githubUsername}/${repo.name}?quickstart=1`;
     
   
   };
